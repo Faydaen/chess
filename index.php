@@ -8,11 +8,40 @@
 
         <link rel="stylesheet" href="node_modules/@chrisoakman/chessboardjs/dist/chessboard-1.0.0.min.css">
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+
         <script src="node_modules/@chrisoakman/chessboardjs/dist/chessboard-1.0.0.min.js"></script>
+
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+        <style>
+            /*body {
+                background-color: #98a38d;
+            }
+            .container {
+                background-color: white;
+            }
+            */
+             */
+        </style>
+
     </head>
     <body>
 
-        <div id="board" style="width: 400px"></div>
+
+    <br>
+    <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="board" style="width: 400px; margin: 0 auto"></div>
+                </div>
+                <div class="col-md-6">
+                    <!-- treejs-->
+                </div>
+            </div>
+        </div>
+
 
         <script type="text/javascript">
             // /home/ghost/web/app/chess/bN.png
